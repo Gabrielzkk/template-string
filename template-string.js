@@ -13,3 +13,7 @@ const peso = 70;
 const altura = 1.8;
 let imc = peso / (altura * altura) // Usaremos let pois iremos mudar os valores constantemente da variavel
 let anoNascimento = 2021 - idade;
+
+// Template string
+// Basta usar crases para envolver o seu texto e as variaveis com ${variavel}
+console.log(`${nome} ${sobrenome} tem ${idade} anos, pesa ${peso}kg \ntem ${altura} de altura e seu IMC é de ${imc}\n${nome} nasceu em: ${anoNascimento}`)
